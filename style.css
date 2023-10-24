@@ -1,0 +1,127 @@
+/* Resetting some default styles for better consistency */
+ul, li, p {
+    margin: 15;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    background: #f8f8f9;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+
+}
+
+/* Header styles */
+h1 {
+    color: darkblue;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+h3 {
+    font-weight: 900;
+    color: #1167b1;
+}
+
+/* Image styles */
+img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+/* Link styles */
+a {
+    text-decoration: none;
+    color: white;
+    background-color: lightgrey;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 10px;
+    border-radius: 18px;
+    display: inline-block;
+}
+
+.button:{
+    text-decoration: none;
+    color: white;
+    background-color:darkblue;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 10px;
+    border-radius: 18px;
+    display: inline-block;
+}
+
+.button:hover {
+	background-color: blue;
+	color: white;
+	transition: all 0.4s ease-in-out;
+}
+
+/* Section title styles */
+h2 {
+    color: darkblue;
+    background-color: white;
+    font-size: 50px;
+}
+
+/* List styles */
+ul {
+    list-style: none;
+}
+
+/* Container styles */
+.card-white {
+    background-color: white;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 20px rgba(190, 190, 190, 1.0);
+}
+
+/* Icon styles */
+i {
+    font-size: 40px;
+}
+
+/* Social media links */
+ul li {
+    display: inline-block;
+    margin: 0 16px;
+    color: black;
+    transition: all 0.4s ease-in-out;
+}
+
+
+.container {
+    width: 700px;
+     margin: 24px auto;
+}
+
+
+@media (max widht: 960px){
+    .container{
+        width: 540px;
+    }
+}
+ 
+@media (max-width: 960px){
+    .container{
+        width: 400px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
